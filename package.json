@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scanbyte",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scan structured JSON byte payloads without a heavyweight toolkit.",
+  "bin": {
+    "scanbyte": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scanbyte.git"
+  },
+  "homepage": "https://theworker02.github.io/scanbyte/",
+  "keywords": [
+    "scan",
+    "byte",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
